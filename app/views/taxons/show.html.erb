@@ -1,5 +1,5 @@
 <% if @taxon.icon_file_name? %>
-	<%= image_tag (@taxon.icon(:original)) %>
+	<%= image_tag (@taxon.icon(:original), :style => "width:960px;margin-top:-20px;margin-left:-50px;") %>
 <% else %>
 <div id="barra01">
 		<h1>  <%= @taxon.name %></h1>
